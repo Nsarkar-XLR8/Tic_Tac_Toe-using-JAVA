@@ -19,7 +19,7 @@ public class Tic_Tac_Toe {
         Scanner sc = new Scanner(System.in);
 
         while (!gameOver) {
-            printBoard(board);
+          //  printBoard(board);
             System.out.print("Player" +player + "enter: ");
             int row = sc.nextInt();
             int col = sc.nextInt();
